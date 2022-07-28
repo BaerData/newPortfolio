@@ -1,17 +1,19 @@
 @keyframes borderColor {
   0% {
     background-color: #6c60f5;
+    
   }
   50% {
     background-color: #e02846;
   }
   70% {
-    background-color: #e02846;
+    background-color: rgba(174, 0, 255, 0.849);
   }
   100% {
     background-color: #6c60f5;
   }
 }
+
 
 
 
@@ -32,7 +34,7 @@
 }
 
 .button:hover {
-    transition: 1s ease;
+  transition:  1s ease;
     background: linear-gradient(
       96.71deg,
       #6c60f5 2.53%,
@@ -42,16 +44,20 @@
     
   }
 
+ 
+
 .button.btnInicio {
   font-size: 1rem;
   padding: 10px 100px;
   margin-top: 10px;
-  animation: borderColor 3s infinite linear;
+  animation: borderColor 7s infinite linear;
+  
   
 }
 
 .button.btnInicio:hover {
   transform: scale(1.073);
+  transition:  all 2s ease;
 }
 
 
