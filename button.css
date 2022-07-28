@@ -1,16 +1,23 @@
 @keyframes borderColor {
   0% {
     background-color: #6c60f5;
+    
   }
   50% {
-    background-color: #e02846;
+    background-color: #f03554;
   }
-  70% {
-    background-color: #e02846;
-  }
+ 
   100% {
     background-color: #6c60f5;
   }
+}
+@keyframes borderColorSolid {
+  50% {
+    border: 10px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    
+  }
+ 
 }
 
 
@@ -29,10 +36,12 @@
   font-weight: lighter;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: 1s ease;
+  
 }
 
 .button:hover {
-    transition: 1s ease;
+    
+    transition:  1s ease;
     background: linear-gradient(
       96.71deg,
       #6c60f5 2.53%,
@@ -46,7 +55,8 @@
   font-size: 1rem;
   padding: 10px 100px;
   margin-top: 10px;
-  animation: borderColor 3s infinite linear;
+  animation: borderColor 10s infinite linear;
+  cursor: pointer;
   
 }
 

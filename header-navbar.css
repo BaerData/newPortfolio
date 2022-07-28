@@ -43,7 +43,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    animation: borderColor 4s infinite linear;
+    animation: borderColor 5s infinite linear;
   }
 
   .navbar_logo {
