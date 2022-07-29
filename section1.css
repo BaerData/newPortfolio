@@ -33,8 +33,8 @@
   background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
-    rgba(173, 0, 255, 0.35) 60.79%,
-    #f03554 90.5%
+    rgba(0, 255, 213, 0.151) 60.79%,
+    #e02846 90.5%
   );
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -43,7 +43,7 @@
 
   margin-bottom: 10px;
   animation: down 1s;
-  animation: borderColor 4s infinite linear;
+  animation: borderColor 11s infinite linear;
 }
 
 .submain {

@@ -7,7 +7,7 @@
     background-color: #e02846;
   }
   70% {
-    background-color: rgba(174, 0, 255, 0.849);
+    background-color: rgba(0, 255, 213, 0.849);
   }
   100% {
     background-color: #6c60f5;
@@ -50,8 +50,13 @@
   font-size: 1rem;
   padding: 10px 100px;
   margin-top: 10px;
-  animation: borderColor 7s infinite linear;
-  
+  animation: borderColor 5s infinite linear;
+  background: linear-gradient(
+    96.71deg,
+    #6c60f5 2.53%,
+    rgba(0, 255, 213, 0.151) 60.79%,
+    #e02846 90.5%
+  );
   
 }
 
