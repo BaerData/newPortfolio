@@ -1,27 +1,21 @@
 @keyframes borderColor {
   0% {
-    background-color: #6c60f5;
-    
+    background-color: #7004f4;
   }
   50% {
     background-color: #f03554;
   }
- 
+
   100% {
-    background-color: #6c60f5;
+    background-color: #6000fc;
   }
 }
 @keyframes borderColorSolid {
   50% {
     border: 10px;
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-    
   }
- 
 }
-
-
-
 
 .button {
   text-decoration: none;
@@ -37,22 +31,18 @@
   font-weight: lighter;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: 1s ease;
-  
 }
 
 .button:hover {
-    
-    transition:  1s ease;
-    background: linear-gradient(
-      96.71deg,
-      #6c60f5 2.53%,
-      rgba(173, 0, 255, 0.35) 60.79%,
-      #f03554 90.5%
-    );
-    
-  }
-
- 
+  transition:  all 1s ease;
+  background: linear-gradient(
+    96.71deg,
+    #6c60f56f 2.53%,
+    rgba(151, 2, 243, 0.461) 60.79%,
+    #f0355473 90.5%
+  );
+  animation: borderColor 5s infinite linear;
+}
 
 .button.btnInicio {
   font-size: 1rem;
@@ -60,15 +50,25 @@
   margin-top: 10px;
   animation: borderColor 10s infinite linear;
   cursor: pointer;
-  
+  background: linear-gradient(
+    96.71deg,
+    #6c60f5 2.53%,
+    rgba(173, 0, 255, 0.35) 60.79%,
+    #f03554 90.5%
+  );
 }
 
 .button.btnInicio:hover {
-  transform: scale(1.073);
-  transition:  all 2s ease;
+  transform: scale(1.003);
+  transition: all 2s ease;
+  background: linear-gradient(
+    96.71deg,
+    #6c60f56f 2.53%,
+    rgba(151, 2, 243, 0.461) 60.79%,
+    #f0355473 90.5%
+  );
+  animation: borderColor 3s infinite linear;
 }
-
-
 
 .btnmode {
   width: 60px;
@@ -97,3 +97,78 @@
 .btnmode.active::before {
   left: 36px;
 }
+
+.btn-sobre {
+    text-decoration: none;
+    padding: 20px 20px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: var(--btn-color);
+    color: white;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s ease; 
+     
+}
+
+.btn-sobre.btn-redes {
+  text-decoration: none;
+  padding: 10px 30px;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: var(--btn-color);
+  color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: lighter;
+  transition: 1s ease;
+  font-size: 1.2rem;
+  
+  margin:  20px 2px;
+}
+
+.btn-redes:hover {
+    background: linear-gradient(
+        96.71deg,
+        #6c60f56f 2.53%,
+        rgba(151, 2, 243, 0.461) 60.79%,
+        #f0355473 90.5%
+      );
+    animation: borderColor 3s infinite linear;
+}
+
+.button-card {
+ 
+    text-decoration: none;
+  padding: 20px 10px;
+  border: none;
+  width: 100px;
+  outline: none;
+  border-radius: 4px;
+  background-color: var(--btn-color);
+  color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: lighter;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 500ms ease;
+  margin-top: 300px;
+}
+
+.button-card:hover {
+    background: linear-gradient(
+        96.71deg,
+        #6c60f56f 2.53%,
+        rgba(151, 2, 243, 0.461) 60.79%,
+        #f0355473 90.5%
+      );
+animation: borderColor 4s infinite;
+transform: scale(1.031);
+}
+

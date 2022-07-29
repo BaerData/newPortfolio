@@ -4,6 +4,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
+  
+  
+}
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+    
 }
 
 :root {
@@ -12,6 +21,7 @@
   --btn-color:#3b3b3b;
   --purple-color:#6a47df;
   --section2-color:#131313;
+  --card-color:var(--section2-color)
 }
 
 body {
@@ -19,6 +29,8 @@ body {
   font-weight: lighter;
   text-decoration: none;
   scroll-behavior: smooth;
+  background-color: var(--primary-background-color);
+  
   
 }
 
@@ -32,12 +44,11 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(
-    96.71deg,
-    #6c60f5 2.53%,
-    rgba(0, 255, 213, 0.521) 60.79%,
-    #e02846 90.5%
-  );    /* color of the scroll thumb */
+    background: linear-gradient(
+        96.71deg,
+        #6c60f5 2.53%,
+        #f03554 90.5%
+      );
   border-radius: 20px; 
   border: 3px solid #212121;     
 }

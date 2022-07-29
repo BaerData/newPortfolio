@@ -34,17 +34,17 @@
 
   span {
     background: linear-gradient(
-      96.71deg,
-      #6c60f5 2.53%,
-      rgba(0, 255, 213, 0.151) 60.79%,
-      #e02846 90.5%
-    );
+        96.71deg,
+        #6c60f5 2.53%,
+        rgba(64, 2, 103, 0.352) 60.79%,
+        #f03554 90.5%
+      );
     background-color: #8b6eee;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    animation: borderColor 5s infinite linear;
+    animation: borderColor 7s infinite linear;
   }
 
   .navbar_logo {
@@ -53,7 +53,8 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    
   }
   
   .navbar_menu {
@@ -81,6 +82,7 @@
     text-decoration: none;
     height: 100%;
     transition: all 0.3s ease;
+    
   }
 
   .navbar_links:hover {

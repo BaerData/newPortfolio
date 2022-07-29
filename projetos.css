@@ -1,0 +1,148 @@
+.section--3 {
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  background-color: var(--primary-background-color);
+}
+
+.section-project {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  
+
+  transition: ease 0.8s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+.title-content {
+  margin-top: 10px;
+}
+
+.project-color {
+  font-weight: lighter;
+  font-size: 3rem;
+  background: linear-gradient(
+    96.71deg,
+    #6c60f5 2.53%,
+    rgba(64, 2, 103, 0.352) 60.79%,
+    #f03554 90.5%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  animation: down 1s;
+  animation: borderColor 6s infinite linear;
+
+  margin-top: 20px;
+}
+
+.section-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.card-txt {
+    margin: 10px;
+    height: 385px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: var(--section2-color); */
+    
+    border: 1px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+    align-items: center;
+}
+
+.cards {
+  margin: 10px;
+  height: 385px;
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: var(--section2-color); */
+  
+  border: 1px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  transition: 0.3s ease-in;
+  align-items: center;
+  opacity: 30%;
+  
+}
+
+.cards:hover {
+    
+    height: 300px;
+    opacity: 100%; 
+    
+}
+
+.cards:nth-child(1) {
+    background-image: url(img/baerdetail-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+.cards:nth-child(2) {
+    background-image: url(img/img-confeitaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+.cards:nth-child(3) {
+    background-image: url(img/img-steakburguer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+.cards:nth-child(4) {
+    background-image: url(img/mario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+.cards:nth-child(5) {
+    background-image: url(img/todo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+.cards:nth-child(6) {
+    background-image: url(img/baerdetail-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+
+
+.img-card {
+    width: 100px;
+    
+}
+
+
