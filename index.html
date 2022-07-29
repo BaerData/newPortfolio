@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="button.css" />
     <link rel="stylesheet" href="section1.css" />
     <link rel="stylesheet" href="section2.css" />
+    <title>Portfólio Jonathan</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="header">
@@ -35,7 +38,7 @@
             </li>
 
             <li class="navbar_btn">
-              <a href="#contato" class="button" id="contato-pages">Contato</a>
+              <a href="#contato" class="button btnNav" id="contato-pages">Contato</a>
             </li>
             <li class="navbar_btn">
               <div class="container">
@@ -53,15 +56,44 @@
           <div class="main_container">
             <div class="main_content">
               <h1>Bem vindo</h1>
-              <h3 class="submain">Conheça um pouco sobre mim e meus projetos</h3>
+              <h3 class="submain">Descubra um pouco sobre mim e meus projetos</h3>
               <h2 class="baer">Jonathan <span>Baer</span></h2>
               <button class="button btnInicio" href="#sobre">Explore</button>
             </div>
           </div>
         </div>
       </section>
+      <section class="section--2 rellax" data-rellax-speed="0"> <!-- TELA SOBRE -->
+        <div class="main2" id="sobre">
+            <div class="main_container2" data-aos="fade-up">
+                <div class="main_img--container2">
+                    <div class="main_img--card2"><img class="eu-img" src="img/eu.png" alt=""></div>
+                        </div>
+                        <div class="main_content2">
+                            <h3 class="sobre-color">Sobre</h3>
+                            <p>Comecei no mercado de TI a 1 ano trabalhando como estagiário em bussiness intelligence e análise de dados na área da Qualidade. 
+                                Concluí o curso técnico em informática no Senac Araraquara , onde tive a oportunidade de aprender hardware, software, redes, desenvolvimento (Web, mobile e desktop). 
+                                Atualmente estou focando meus objetivos no desenvolvimento Front-end.</p>   
+                            <button class="main_btn1"><a href="img/JONATHANBAERCurriculo2022(1).pdf">Download CV</a></button>
+                            <button class="main_btn2" id="linkedin"><a href="https://www.linkedin.com/in/jonathanbaer/" class="social_icon--link"><i class="fab fa-linkedin"></i></a></button>
+                            <button class="main_btn2" ><a href="https://github.com/BaerSenac" class="social_icon--link"><i class="fab fa-github"></i></a></button>
+                            <button class="main_btn2"><a href="https://www.instagram.com/j_silvabaer/" class="social_icon--link"><i class="fab fa-instagram"></i></a></button>       
+                </div>
+            </div>
+        </div>
+    </section>
     
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+  <script src="https://kit.fontawesome.com/a334785636.js" crossorigin="anonymous"></script> 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1000,
+        easing: 'ease',
+    });
+  </script>
   <script src="app.js"></script>
+  
   
 </html>

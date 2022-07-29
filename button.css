@@ -22,6 +22,7 @@
 
 
 
+
 .button {
   text-decoration: none;
   padding: 10px 20px;
@@ -51,6 +52,8 @@
     
   }
 
+ 
+
 .button.btnInicio {
   font-size: 1rem;
   padding: 10px 100px;
@@ -62,6 +65,7 @@
 
 .button.btnInicio:hover {
   transform: scale(1.073);
+  transition:  all 2s ease;
 }
 
 
