@@ -9,6 +9,7 @@
 .main {
   height: 110vh;
   transition: ease 0.8s;
+  
 }
 
 .main_container {
@@ -16,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0px 10%;
   height: 80%;
   z-index: 1;
 }
@@ -27,7 +28,7 @@
 
 .main_content h1 {
   font-weight: lighter;
-  font-size: 4rem;
+  font-size: 7rem;
   
   background: linear-gradient(
     96.71deg,

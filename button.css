@@ -10,11 +10,16 @@
     background-color: #6000fc;
   }
 }
-@keyframes borderColorSolid {
-  50% {
-    border: 10px;
-    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+@keyframes btnGo {
+  from {
+    width: 50%;
+    
   }
+  to {
+    width: 100%;
+    
+  }
+ 
 }
 
 .button {
@@ -56,18 +61,20 @@
     rgba(173, 0, 255, 0.35) 60.79%,
     #f03554 90.5%
   );
+  
 }
 
 .button.btnInicio:hover {
   transform: scale(1.003);
-  transition: all 2s ease;
-  background: linear-gradient(
+  transition: ease-in-out 2s;
+   background: linear-gradient(
     96.71deg,
-    #6c60f56f 2.53%,
-    rgba(151, 2, 243, 0.461) 60.79%,
-    #f0355473 90.5%
-  );
+    #6c60f5 2.53%,
+    rgb(151, 2, 243) 60.79%,
+    #f03554fe 90.5%
+  ); 
   animation: borderColor 3s infinite linear;
+  animation: btnGo 1s both  ;
 }
 
 .btnmode {
@@ -159,6 +166,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: 500ms ease;
   margin-top: 300px;
+  
 }
 
 .button-card:hover {
@@ -170,5 +178,6 @@
       );
 animation: borderColor 4s infinite;
 transform: scale(1.031);
+
 }
 

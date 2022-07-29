@@ -49,27 +49,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  margin-top: 30px;
 }
 
-.card-txt {
-    margin: 10px;
-    height: 385px;
-    width: 400px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* background: var(--section2-color); */
-    
-    border: 1px;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    transition: 0.3s ease-in;
-    align-items: center;
-}
+
 
 .cards {
+
   margin: 10px;
   height: 385px;
   width: 400px;
@@ -90,7 +76,7 @@
 }
 
 .cards:hover {
-    
+    transition: 0.7s ease;
     height: 300px;
     opacity: 100%; 
     
@@ -117,6 +103,7 @@
     background-position-x: center;
     
 }
+
 .cards:nth-child(4) {
     background-image: url(img/mario.jpg);
     background-repeat: no-repeat;
