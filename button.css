@@ -66,7 +66,7 @@
 
 .button.btnInicio:hover {
   transform: scale(1.003);
-  transition: ease-in-out 2s;
+  transition: ease-out 1s;
    background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
@@ -74,7 +74,7 @@
     #f03554fe 90.5%
   ); 
   animation: borderColor 3s infinite linear;
-  animation: btnGo 1s both  ;
+  animation: btnGo 1s both;
 }
 
 .btnmode {
