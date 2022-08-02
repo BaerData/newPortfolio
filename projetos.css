@@ -119,7 +119,7 @@
     
 }
 .cards:nth-child(6) {
-    background-image: url(img/baerdetail-img.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
