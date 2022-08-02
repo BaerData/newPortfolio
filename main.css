@@ -72,13 +72,11 @@ body::-webkit-scrollbar-thumb {
     height: 90px;
     border: 4px solid #f03554;
     border-radius: ;
-    
-    
     /* background-image: url(img/eu.png);
     background-position: center;
     background-size: contain; */
     animation: load 3s infinite linear;
-}
+/* } */
 
 .box-load {
     position: absolute;
