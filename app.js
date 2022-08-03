@@ -18,6 +18,7 @@ const btnmode = document.querySelector(".btnmode");
 const section = document.querySelector(".section--1");
 const section2 = document.querySelector(".section--2");
 const section3 = document.querySelector(".section--3");
+const sectionContato = document.querySelector(".section--contato");
 const sobreParagraph = document.querySelector(".sobre-paragraph");
 const submain = document.querySelector(".submain");
 const baer = document.querySelector(".baer");
@@ -33,6 +34,7 @@ btnmode.onclick = function () {
   section.classList.toggle("active");
   section2.classList.toggle("active");
   section3.classList.toggle("active");
+  sectionContato.classList.toggle("active");
   sobreParagraph.classList.toggle("active");
   submain.classList.toggle("active");
   baer.classList.toggle("active");

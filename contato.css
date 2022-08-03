@@ -3,7 +3,7 @@
     background: var(--primary-background-color);
   }
   .main3 {
-    padding: 20vh 0;
+    padding: 10vh 0;
     width: 100%;
     background-size: cover 50%;
     background-repeat: no-repeat;
@@ -110,7 +110,9 @@
     font-weight: 500;
     cursor: pointer;
     margin-top: 70px;
-    width: 40%;
+    width: 96%;
+    margin-bottom: 5px;
+    font-weight: lighter;
 
     animation: borderColor 4s infinite;
   }

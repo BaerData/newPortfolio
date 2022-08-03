@@ -87,6 +87,12 @@
     transition: ease 0.8s;
 }
 
+/* TELA CONTATO */
+
+.section--contato.active {
+    background-color: #fff;
+}
+
 /* TELA PROJETOS */
 
 .section--3.active {
