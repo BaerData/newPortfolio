@@ -1,11 +1,13 @@
 /* TELA CONTATO */
 .section--contato {
   background: var(--primary-background-color);
+  height: 150vh;
 }
 /* Main Plan Contact */
 .main3 {
   padding: 20vh 0;
   width: 100%;
+  
   background-size: cover 50%;
   background-repeat: no-repeat;
 }
@@ -17,18 +19,17 @@
 
 /* title contact */
 .title-contato {
-  color: #a3a1a1;
+ 
   align-items: center;
   padding: 1rem;
   margin-bottom: 200px;
   text-align: center;
+
 }
 
-.title--contato {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.title--contato{
   font-weight: lighter;
   font-size: 3rem;
-  animation: borderColor 4s infinite linear;
   background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
@@ -39,6 +40,11 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+
+  animation: down 1s;
+  animation: borderColor 6s infinite linear;
+
+
 }
 
 .area-login {
