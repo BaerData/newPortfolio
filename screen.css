@@ -1,6 +1,6 @@
 /*######### REPONSIVO #########*/
 
-@media screen and (max-width: 480px),(max-width: 560px) {
+@media screen and (max-width: 480px), (max-width: 560px) {
   /* NAVBAR */
   .navbar_container {
     display: flex;
@@ -134,8 +134,6 @@
     padding: 5px;
   }
 
-
-
   /* formulario de contato */
 
   .main3 {
@@ -147,7 +145,6 @@
 
   .main_img--container3 {
     height: 100px;
-    
   }
 
   .area-login form {
@@ -157,8 +154,6 @@
   textarea {
     width: 280px;
   }
- 
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -192,7 +187,6 @@
 
   .main_img--container3 {
     height: 100px;
-    
   }
 
   .area-login form {
@@ -204,28 +198,27 @@
   }
 }
 
- @media screen and (min-width: 1440px) { 
-
-    .section-cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-      }
+@media screen and (min-width: 1440px) {
+  .section-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
   .cards {
     width: 400px;
-    height: 300px;
+    height: 350px;
   }
 
   .cards:hover {
     width: 400px;
-    height: 350px;
+    height: 300px;
   }
 
   .button-card {
     margin-top: 200px;
     padding: 10px;
   }
-} 
+}
 
 @media screen and (min-width: 1300px) {
   .services_wrapper {
