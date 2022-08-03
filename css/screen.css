@@ -9,7 +9,7 @@
 
 }
 
-@media screen and (max-width:480px),(max-width:960px) {
+@media screen and (max-width:480px) {
 
  
    /* NAVBAR */
@@ -153,22 +153,61 @@
     }
 
 
-    .section-cards {
+  
+
+      .section-cards {
         display: grid;
-       
+        grid-template-columns: 1fr ;
         grid-template-rows: 1fr;
         
       }
 
       .cards {
-        width: 100px;
+        width: 300px;
+        height: 50px;
+      }
+
+      .cards:hover {
+        width: 300px;
+        height: 150px;
+      }
+
+      .button-card {
+        margin-top: 10px;
+        padding: 5px;
+
       }
     
 }
 
 
 
+@media screen and (min-width:1024px) {
+   
+    .section-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        
+      }
 
+      .cards {
+        width: 300px;
+        height: 150px;
+      }
+
+      .cards:hover {
+        width: 300px;
+        height: 200px;
+      }
+
+      .button-card {
+        margin-top: 50px;
+        padding: 10px;
+
+      }
+
+}
 
 
 @media screen and (max-width: 1100px) {
