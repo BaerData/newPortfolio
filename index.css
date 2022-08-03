@@ -4,26 +4,22 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
-  
-  
-}
-
-html {
-    scroll-behavior: smooth;
-    user-select: none;
-    
-    background-color: var(--primary-background-color);
-    
 }
 
 :root {
   --primary-background-color: #212121;
   --second-background-color: #fff;
-  --btn-color:#3b3b3b;
-  --purple-color:#6a47df;
-  --section2-color:#131313;
-  --card-color:var(--section2-color)
+  --btn-color: #3b3b3b;
+  --purple-color: #6a47df;
+  --section2-color: #131313;
+  --card-color: var(--section2-color);
+}
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+
+  background-color: var(--primary-background-color);
 }
 
 body {
@@ -33,62 +29,55 @@ body {
   scroll-behavior: smooth;
   background-color: var(--primary-background-color);
   width: 100%;
-    height: 100%;
-  
+  height: 100%;
   
 }
 
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-  
+  width: 12px; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--primary-background-color);        /* color of the tracking area */
+  background: var(--primary-background-color); /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-    background: linear-gradient(
-        96.71deg,
-        #6c60f5 2.53%,
-        #f03554 90.5%
-      );
-  border-radius: 20px; 
-  border: 3px solid #212121;     
+  background: linear-gradient(96.71deg, #6c60f5 2.53%, #f03554 90.5%);
+  border-radius: 20px;
+  border: 3px solid #212121;
 }
 
 @keyframes load {
-    from{
-        /* transform: rotate(360deg); */
-        width: px;
-    }
-    to {
-        /* transform: rotate(360deg); */
-        width: 90%;
-    }
+  from {
+    /* transform: rotate(360deg); */
+    width: px;
+  }
+  to {
+    /* transform: rotate(360deg); */
+    width: 90%;
+  }
 }
 .pre {
-    width: 90px;
-    height: 90px;
-    border: 4px solid #f03554;
-    
-    /* background-image: url(img/eu.png);
+  width: 90px;
+  height: 90px;
+  border: 4px solid #f03554;
+
+  /* background-image: url(img/eu.png);
     background-position: center;
     background-size: contain; */
-    animation: load 3s infinite linear;
+  animation: load 3s infinite linear;
 }
 
 .box-load {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: var(--primary-background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
-    display: none;
+  display: none;
 }

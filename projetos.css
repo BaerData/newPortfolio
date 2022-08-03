@@ -83,21 +83,21 @@
 }
 
 .cards:nth-child(1) {
-    background-image: url(images/baerdetail-img.jpg);
+    background-image: url(./images/baerdetail-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     
 }
 .cards:nth-child(2) {
-    background-image: url(images/img-confeitaria.jpg);
+    background-image: url(./images/img-confeitaria.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     
 }
 .cards:nth-child(3) {
-    background-image: url(images/img-steakburguer.jpg);
+    background-image: url(./images/img-steakburguer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -105,21 +105,21 @@
 }
 
 .cards:nth-child(4) {
-    background-image: url(images/mario.jpg);
+    background-image: url(./images/mario.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     
 }
 .cards:nth-child(5) {
-    background-image: url(images/todo.jpg);
+    background-image: url(./images/todo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     
 }
 .cards:nth-child(6) {
-    background-image: url(images/senhas.png);
+    background-image: url(./images/senhas.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
