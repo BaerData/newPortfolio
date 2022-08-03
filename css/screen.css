@@ -184,24 +184,30 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .cards {
-    width: 400px;
-    height: 150px;
-  }
+ @media screen and (min-width: 1440px) { 
 
-  .cards:hover {
+    .section-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+      }
+  .cards {
     width: 400px;
     height: 300px;
   }
 
+  .cards:hover {
+    width: 400px;
+    height: 350px;
+  }
+
   .button-card {
-    margin-top: 50px;
+    margin-top: 200px;
     padding: 10px;
   }
-}
+} 
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1300px) {
   .services_wrapper {
     grid-template-columns: 1fr 1fr;
   }
