@@ -165,12 +165,12 @@
 
   .cards {
     width: 300px;
-    height: 200px;
+    height: 250px;
   }
 
   .cards:hover {
     width: 300px;
-    height: 250px;
+    height: 200px;
   }
 
   .button-card {

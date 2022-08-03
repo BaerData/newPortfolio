@@ -1,7 +1,8 @@
 /* TELA CONTATO */
 .section--contato {
+  /* background: var(--primary-background-color); */
+  height: 160vh;
   background: var(--primary-background-color);
-  height: 120vh;
 }
 /* Main Plan Contact */
 .main3 {
@@ -44,6 +45,7 @@
   animation: down 1s;
   animation: borderColor 6s infinite linear;
 
+  
 
 }
 
