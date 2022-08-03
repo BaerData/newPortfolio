@@ -164,18 +164,18 @@
 @media screen and (min-width: 1024px) {
   .section-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
 
   .cards {
     width: 300px;
-    height: 150px;
+    height: 200px;
   }
 
   .cards:hover {
     width: 300px;
-    height: 200px;
+    height: 250px;
   }
 
   .button-card {
