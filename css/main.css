@@ -13,7 +13,7 @@ html {
     scroll-behavior: smooth;
     user-select: none;
     
-    background-color: #f03554;
+    background-color: var(--primary-background-color);
     
 }
 
