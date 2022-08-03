@@ -15,6 +15,7 @@ menu.addEventListener("click", mobileMenu);
 
 //Dark mode
 const btnmode = document.querySelector(".btnmode");
+const body = document.querySelector("body")
 const section = document.querySelector(".section--1");
 const section2 = document.querySelector(".section--2");
 const section3 = document.querySelector(".section--3");
@@ -31,6 +32,7 @@ const menulinksdark = document.querySelector(".navbar_menu");
 
 btnmode.onclick = function () {
   this.classList.toggle("active");
+  body.classList.toggle("active");
   section.classList.toggle("active");
   section2.classList.toggle("active");
   section3.classList.toggle("active");

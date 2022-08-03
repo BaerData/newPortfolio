@@ -14,6 +14,10 @@
     
 }
 
+body.active {
+    background-color: #fff;
+}
+
 /* NAVBAR DARK MODE */
 .navbar.active {
     background: #fff;
