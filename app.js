@@ -1,14 +1,20 @@
 const menu = document.querySelector("#mobile-menu");
 const menulinks = document.querySelector(".navbar_menu");
 
+
+
 //Display Mobile Menu
 
 const mobileMenu = () => {
   menu.classList.toggle("is-active");
   menulinks.classList.toggle("active");
+ 
+  
+  
 };
 
 menu.addEventListener("click", mobileMenu);
+// menulinks.addEventListener("click", mobileMenu);
 
 //Paralax
 //var rellax = new Rellax('.rellax');//
@@ -16,7 +22,7 @@ menu.addEventListener("click", mobileMenu);
 //Dark mode
 const btnmode = document.querySelector(".btnmode");
 const body = document.querySelector("body")
-const section = document.querySelector(".section--1");
+const sectionHome = document.querySelector(".section-home");
 const section2 = document.querySelector(".section--2");
 const section3 = document.querySelector(".section--3");
 const sectionContato = document.querySelector(".section--contato");
@@ -27,13 +33,13 @@ const navbar = document.querySelector(".navbar");
 const navbar_logo = document.querySelector(".navbar_logo");
 const navbar_links = document.querySelector(".navbar_links");
 const services = document.querySelector(".services");
-const menulinksdark = document.querySelector(".navbar_menu");
+// const menulinksdark = document.querySelector(".navbar_menu");
 
 
 btnmode.onclick = function () {
   this.classList.toggle("active");
   body.classList.toggle("active");
-  section.classList.toggle("active");
+  sectionHome.classList.toggle("active");
   section2.classList.toggle("active");
   section3.classList.toggle("active");
   sectionContato.classList.toggle("active");

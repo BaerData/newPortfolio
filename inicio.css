@@ -1,9 +1,9 @@
 /*######### TELA INICIO #########*/
 
-.section--1 {
+.section-home {
   background: var(--primary-background-color);
   width: 100%;
-  height: 110vh;
+  height: 100vh;
 }
 
 .main {

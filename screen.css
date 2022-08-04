@@ -5,7 +5,7 @@
   .navbar_container {
     display: flex;
     justify-content: center;
-    height: 80px;
+    height: 100px;
     z-index: 1;
     width: 100%;
     padding: 10px;
@@ -16,20 +16,21 @@
     grid-template-columns: auto;
     margin: 0;
     position: absolute;
-    top: -1100px;
+    top: -900px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: -1;
     width: 100%;
+    gap: 10px;
   }
 
   .navbar_menu.active {
     background: var(--primary-background-color);
-    top: 100%;
+    top: 1%;
     opacity: 1;
-    transition: all o.5s ease;
+    transition: all 0.5s ease;
     z-index: 1;
-    height: 70vh;
+    height: 100vh;
     font-size: 1.3rem;
     width: 100%;
   }
@@ -199,6 +200,8 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+  
   .section-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

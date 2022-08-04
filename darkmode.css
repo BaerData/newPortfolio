@@ -15,12 +15,13 @@
 }
 
 body.active {
-    background-color: #fff;
+    background-color: rgb(241, 239, 229);
 }
 
 /* NAVBAR DARK MODE */
 .navbar.active {
-    background: #fff;
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(13.5px);
     transition: ease 0.8s;
 }
 
@@ -33,6 +34,7 @@ body.active {
 .navbar_menu.active{
     color: black;
     transition: ease 0.8s;
+
 }
 
 
@@ -75,8 +77,8 @@ body.active {
     color: black;
 }
 
-.section--1.active {
-    background: #fff;
+.section-home.active {
+    background: rgb(241, 239, 229);
     transition: ease 0.8s;
 }
 
