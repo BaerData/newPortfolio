@@ -157,7 +157,20 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1057px) {
+
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    z-index: 1;
+    width: 100%;
+    max-width: 600px;
+    
+    padding: 0 50px;
+
+  }
+
   .section-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -165,12 +178,12 @@
   }
 
   .cards {
-    width: 300px;
+    width: 200px;
     height: 250px;
   }
 
   .cards:hover {
-    width: 300px;
+    width: 200px;
     height: 200px;
   }
 
@@ -200,6 +213,7 @@
 }
 
 @media screen and (min-width: 1440px) {
+  
 
   
   .section-cards {

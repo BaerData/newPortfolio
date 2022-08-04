@@ -78,13 +78,14 @@ body.active {
 }
 
 .section-home.active {
-    background: rgb(241, 239, 229);
+background: rgb(250, 250, 250);
     transition: ease 0.8s;
+    
 }
 
 /* TELA SOBRE */
 .section--2.active {
-    background: rgb(233, 233, 233);
+    background: rgb(250, 250, 250);
     transition: ease 0.8s;
 }
 
@@ -96,17 +97,17 @@ body.active {
 /* TELA CONTATO */
 
 .section--contato.active {
-    background-color: #fff;
+    background: rgb(250, 250, 250);
 }
 
 /* TELA PROJETOS */
 
 .section--3.active {
-    background-color: #fff;
+    background: rgb(250, 250, 250);
     transition: ease 0.8s;
 }
 
 .services.active {
-    background-color: #fff;
+    background: rgb(250, 250, 250);;
     transition: ease 0.8s;
 }
