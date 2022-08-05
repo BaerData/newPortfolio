@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="reset.css" media="screen" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/header-navbar.css" />
-    <link rel="stylesheet" href="css/button.css" />
-    <link rel="stylesheet" href="css/inicio.css" />
-    <link rel="stylesheet" href="css/sobre.css" />
-    <link rel="stylesheet" href="css/projetos.css" />
-    <link rel="stylesheet" href="css/contato.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/screen.css" />
-    <link rel="stylesheet" href="css/darkmode.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header-navbar.css" />
+    <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="inicio.css" />
+    <link rel="stylesheet" href="sobre.css" />
+    <link rel="stylesheet" href="projetos.css" />
+    <link rel="stylesheet" href="contato.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="screen.css" />
+    <link rel="stylesheet" href="darkmode.css" />
     <title>Portfólio Jonathan</title>
     <link
       rel="stylesheet"
@@ -29,239 +29,241 @@
     </script>  -->
   </head>
   <body onload="loading()">
-      <header class="header">
-        <nav class="navbar">
-          <!-- NAVBAR -->
-          <div class="navbar_container">
-            <a class="navbar_logo" href="#home" id="">Bäer</a>
-            <div class="navbar_toggle" id="mobile-menu">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-              
-            </div>
-            <ul class="navbar_menu">
-              <li class="navbar_item">
-                <a href="#home" class="navbar_links" id="home-page">Home</a>
-              </li>
-              <li class="navbar_item">
-                <a href="#sobre" class="navbar_links" id="sobre-page">Sobre</a>
-              </li>
-              <li class="navbar_item">
-                <a href="#review" class="navbar_links" id="review-page"
-                  >Projetos</a
-                >
-              </li>
-
-              <li class="navbar_btn">
-                <a href="#contato" class="button btnNav" id="contato-pages"
-                  >Contato</a
-                >
-              </li>
-              <li class="navbar_btn">
-                <div class="container">
-                  <div class="btnmode"></div>
-                </div>
-              </li>
-            </ul>
+    <header class="header">
+      <nav class="navbar">
+        <!-- NAVBAR -->
+        <div class="navbar_container">
+          <a class="navbar_logo" href="#home" id="">Bäer</a>
+          <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
-        </nav>
-      </header>
-      <section class="section-home">
-        <!-- TELA INICIO -->
-
-        <div class="main" id="home">
-          <div class="main_container">
-            <div class="main_content">
-              <h1>Bem vindo</h1>
-              <h3 class="submain">
-                Descubra um pouco sobre mim e meus projetos
-              </h3>
-              <h2 class="baer">Jonathan <span>Bäer</span></h2>
-              <a href="#sobre"
-                ><button class="button btnInicio" href="#sobre">
-                  Explore
-                </button></a
+          <ul class="navbar_menu">
+            <li class="navbar_item">
+              <a href="#home" class="navbar_links" id="home-page">Home</a>
+            </li>
+            <li class="navbar_item">
+              <a href="#sobre" class="navbar_links" id="sobre-page">Sobre</a>
+            </li>
+            <li class="navbar_item">
+              <a href="#review" class="navbar_links" id="review-page"
+                >Projetos</a
               >
-            </div>
+            </li>
+
+            <li class="navbar_btn">
+              <a href="#contato" class="button btnNav" id="contato-pages"
+                >Contato</a
+              >
+            </li>
+            <li class="navbar_btn">
+              <div class="container">
+                <div class="btnmode"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="section-home">
+      <!-- TELA INICIO -->
+
+      <div class="main" id="home">
+        <div class="main_container">
+          <div class="main_content">
+            <h1>Bem vindo</h1>
+            <h3 class="submain">Descubra um pouco sobre mim e meus projetos</h3>
+            <h2 class="baer">Jonathan <span>Bäer</span></h2>
+            <button
+              class="button btnInicio"
+              onclick="location.href='#sobre'"
+            >
+              Explore
+            </button>
           </div>
         </div>
-      </section>
-      <section class="section--2" data-rellax-speed="2">
-        <!-- TELA SOBRE -->
-        <div class="main2" id="sobre">
-          <div class="main_container2" data-aos="fade-up">
-            <div class="main_img--container2">
-              <div class="main_img--card2">
-                <img class="eu-img" src="Img/eu.png" alt="foto perfil" />
-              </div>
+      </div>
+    </section>
+    <section class="section--2" data-rellax-speed="2">
+      <!-- TELA SOBRE -->
+      <div class="main2" id="sobre">
+        <div class="main_container2" data-aos="fade-up">
+          <div class="main_img--container2">
+            <div class="main_img--card2">
+              <img class="eu-img" src="Img/eu.png" alt="foto perfil" />
             </div>
-            <div class="main_content2">
-              <h3 class="sobre-color">Sobre mim</h3>
-              <p class="sobre-paragraph">
-                Comecei no mercado de TI a 1 ano trabalhando como estagiário em
-                bussiness intelligence e análise de dados na área da Qualidade.
-                Concluí o curso técnico em informática no Senac Araraquara ,
-                onde tive a oportunidade de aprender hardware, software, redes,
-                desenvolvimento (Web, mobile e desktop). Atualmente estou
-                focando meus objetivos no desenvolvimento Front-end.
-              </p>
-              <a href="Img/JONATHANBAERCurriculo2022(1).pdf"
-                ><button
-                  class="btn-sobre btn-redes"
-                  onclick="location.href='Img/JONATHANBAERCurriculo2022(1).pdf'"
-                >
-                  Download CV
-                </button></a
-              >
-
-              <button
+          </div>
+          <div class="main_content2">
+            <h3 class="sobre-color">Sobre mim</h3>
+            <p class="sobre-paragraph">
+              Comecei no mercado de TI a 1 ano trabalhando como estagiário em
+              bussiness intelligence e análise de dados na área da Qualidade.
+              Concluí o curso técnico em informática no Senac Araraquara , onde
+              tive a oportunidade de aprender hardware, software, redes,
+              desenvolvimento (Web, mobile e desktop). Atualmente estou focando
+              meus objetivos no desenvolvimento Front-end.
+            </p>
+            <a href="Img/JONATHANBAERCurriculo2022(1).pdf"
+              ><button
                 class="btn-sobre btn-redes"
-                id="linkedin"
-                onclick="location.href='https://www.linkedin.com/in/jonathanbaer/'"
+                onclick="location.href='Img/JONATHANBAERCurriculo2022(1).pdf'"
               >
-                <i class="fab fa-linkedin"></i>
-              </button>
+                Download CV
+              </button></a
+            >
 
+            <button
+              class="btn-sobre btn-redes"
+              id="linkedin"
+              onclick="location.href='https://www.linkedin.com/in/jonathanbaer/'"
+            >
+              <i class="fab fa-linkedin"></i>
+            </button>
+
+            <button
+              class="btn-redes btn-sobre"
+              onclick="location.href='https://github.com/BaerSenac'"
+            >
+              <i class="fab fa-github"></i>
+            </button>
+
+            <button
+              class="btn-redes btn-sobre"
+              onclick="location.href='https://www.instagram.com/j_silvabaer/'"
+            >
+              <i class="fab fa-instagram"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section--3" id="review">
+      <div class="section-project" data-aos="fade-up">
+        <div class="title-content">
+          <h3 class="project-color">Projetos</h3>
+        </div>
+        <div class="section-cards">
+          <div class="cards">
+            <div class="card-content">
               <button
-                class="btn-redes btn-sobre"
+                class="button-card"
+                onclick="location.href='https://baersenac.github.io/Baer-Detail/'"
+              >
+                Conferir
+              </button>
+              <button
+                class="button-card"
                 onclick="location.href='https://github.com/BaerSenac'"
+                title="Repositorio"
               >
                 <i class="fab fa-github"></i>
               </button>
-
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-content">
               <button
-                class="btn-redes btn-sobre"
-                onclick="location.href='https://www.instagram.com/j_silvabaer/'"
+                class="button-card"
+                onclick="location.href='https://baersenac.github.io/Confeitaria-pages/'"
               >
-                <i class="fab fa-instagram"></i>
+                Conferir
+              </button>
+              <button
+                class="button-card"
+                onclick="location.href='https://github.com/BaerSenac'"
+                title="Repositorio"
+              >
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-content">
+              <button
+                class="button-card"
+                onclick="location.href='https://baersenac.github.io/github-pages1/'"
+              >
+                Conferir
+              </button>
+              <button
+                class="button-card"
+                onclick="location.href='https://github.com/BaerSenac'"
+                title="Repositorio"
+              >
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-content">
+              <button
+                class="button-card"
+                onclick="location.href='https://lnkd.in/d8mDbqnS'"
+              >
+                Conferir
+              </button>
+              <button
+                class="button-card"
+                onclick="location.href='https://github.com/BaerSenac'"
+                title="Repositorio"
+              >
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-content">
+              <button
+                class="button-card"
+                onclick="location.href='https://baersenac.github.io/Lista_de_Tarefas/'"
+              >
+                Conferir
+              </button>
+              <button
+                class="button-card"
+                onclick="location.href='https://github.com/BaerSenac'"
+                title="Repositorio"
+              >
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-content">
+              <button
+                class="button-card"
+                onclick="location.href='https://baersenac.github.io/Gerador_de_Senhas/'"
+              >
+                Conferir
+              </button>
+              <button
+                class="button-card"
+                onclick="location.href='https://github.com/BaerSenac'"
+                title="Repositorio"
+              >
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card-content">
+              <button class="button-card" onclick="location.href=''">
+                Conferir
+              </button>
+              <button
+                class="button-card"
+                onclick="location.href='https://github.com/BaerSenac'"
+                title="Repositorio"
+              >
+                <i class="fab fa-github"></i>
               </button>
             </div>
           </div>
         </div>
-      </section>
-      <section class="section--3" id="review">
-        <div class="section-project" data-aos="fade-up">
-          <div class="title-content">
-            <h3 class="project-color">Projetos</h3>
-          </div>
-          <div class="section-cards">
-            <div class="cards">
-              <div class="card-content">
-                <button
-                  class="button-card"
-                  onclick="location.href='https://baersenac.github.io/Baer-Detail/'"
-                >
-                  Conferir
-                </button>
-                <button
-                class="button-card"
-                onclick="location.href='https://github.com/BaerSenac'"
-                title="Repositorio">
-                <i class="fab fa-github"></i>
-              </button>
-              </div>
-            </div>
-            <div class="cards">
-              <div class="card-content">
-                <button
-                  class="button-card"
-                  onclick="location.href='https://baersenac.github.io/Confeitaria-pages/'"
-                >
-                  Conferir
-                </button>
-                <button
-                class="button-card"
-                onclick="location.href='https://github.com/BaerSenac'"
-                title="Repositorio">
-                <i class="fab fa-github"></i>
-              </button>
-              </div>
-            </div>
-            <div class="cards">
-              <div class="card-content">
-                <button
-                  class="button-card"
-                  onclick="location.href='https://baersenac.github.io/github-pages1/'"
-                >
-                  Conferir
-                </button>
-                <button
-                class="button-card"
-                onclick="location.href='https://github.com/BaerSenac'"
-                title="Repositorio">
-                <i class="fab fa-github"></i>
-              </button>
-              </div>
-            </div>
-            <div class="cards">
-              <div class="card-content">
-                <button
-                  class="button-card"
-                  onclick="location.href='https://lnkd.in/d8mDbqnS'"
-                >
-                  Conferir
-                </button>
-                <button
-                class="button-card"
-                onclick="location.href='https://github.com/BaerSenac'"
-                title="Repositorio">
-                <i class="fab fa-github"></i>
-              </button>
-              </div>
-            </div>
-            <div class="cards">
-              <div class="card-content">
-                <button
-                  class="button-card"
-                  onclick="location.href='https://baersenac.github.io/Lista_de_Tarefas/'"
-                >
-                  Conferir
-                </button>
-                <button
-                class="button-card"
-                onclick="location.href='https://github.com/BaerSenac'"
-                title="Repositorio">
-                <i class="fab fa-github"></i>
-              </button>
-              </div>
-            </div>
-            <div class="cards">
-              <div class="card-content">
-                <button
-                  class="button-card"
-                  onclick="location.href='https://baersenac.github.io/Gerador_de_Senhas/'"
-                >
-                  Conferir
-                </button>
-                <button
-                class="button-card"
-                onclick="location.href='https://github.com/BaerSenac'"
-              title="Repositorio" >
-                <i class="fab fa-github"></i>
-              </button>
-              </div>
-            </div>
-            <div class="cards">
-              <div class="card-content">
-                <button
-                  class="button-card"
-                  onclick="location.href=''"
-                >
-                  Conferir
-                </button>
-                <button
-                class="button-card"
-                onclick="location.href='https://github.com/BaerSenac'"
-              title="Repositorio" >
-                <i class="fab fa-github"></i>
-              </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section--contato">
+      </div>
+    </section>
+    <section class="section--contato">
       <!-- TELA CONTATO -->
       <div class="main3" data-aos="fade-up" id="contato">
         <div class="title-contato">
@@ -271,7 +273,8 @@
           <div class="area-login">
             <form
               action="https://formsubmit.co/jonathanbaeremails@gmail.com"
-              method="POST" class="form"
+              method="POST"
+              class="form"
             >
               <input type="text" name="nome" placeholder="Nome" />
               <input type="email" name="email" placeholder="Email" />
@@ -288,7 +291,7 @@
           </div>
         </div>
       </div>
-      </section>
+    </section>
     <footer class="footer_container">
       <!-- RODAPE -->
       <div class="footer_links">
