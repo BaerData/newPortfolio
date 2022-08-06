@@ -22,20 +22,21 @@
     z-index: -1;
     width: 100%;
     gap: 10px;
-    
+
   }
 
   .navbar_menu.active {
     background: var(--primary-background-color);
     top: 1%;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: ease 3s ;
     z-index: 1;
     height: 80vh;
     font-size: 1.3rem;
     width: 70%;
     list-style: none;
-    
+    padding: 22px;
+
   }
 
   #navbar_logo {
@@ -60,6 +61,7 @@
 
   .main_container {
     margin-top: 100px;
+    
   }
 
   .button {
@@ -67,9 +69,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    border-radius: 5px;
     height: 50px;
     text-decoration: none;
     outline: none;
+    text-align: center;
   }
 
   .main_img--container {
@@ -80,8 +84,10 @@
   /* TELA SOBRE */
 
   .main_img--card2 > img {
-    width: 250px;
-    height: 250px;
+    width: 2  80px;
+   height: 350px;
+    border-radius: 2px;
+    filter: grayscale(70%);
   }
 
   .main_content2 {
@@ -117,6 +123,10 @@
   }
 
   /* cartoes dos projetos */
+
+  .section--3 {
+    height: 150vh;
+  }
   .section-cards {
     display: grid;
     grid-template-columns: 1fr ;
@@ -141,7 +151,7 @@
   /* formulario de contato */
 
   .main3 {
-    padding: 10vh 0;
+    padding: 5vh 0;
     margin-top: 250px;
     background-size: cover 50%;
     background-repeat: no-repeat;
@@ -168,7 +178,7 @@
     z-index: 1;
     width: 100%;
     max-width: 550px;
-    
+
     padding: 0 50px;
 
   }
@@ -221,7 +231,7 @@
     z-index: 1;
     width: 100%;
     max-width: 1400px;
-    
+
     padding: 0 50px;
 
   }
@@ -268,9 +278,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-  
 
-  
+
+
   .section-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
