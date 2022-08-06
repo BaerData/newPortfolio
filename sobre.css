@@ -6,7 +6,7 @@
 
 /* Div Base */
 .main2 {
-  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
   padding: 30vh 0vh;
   height: 100%;
   width: 100%;
@@ -38,7 +38,8 @@
 
 /* Titulo da pagina */
 .sobre-color {
-  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 3rem;
   background: linear-gradient(
     96.71deg,
