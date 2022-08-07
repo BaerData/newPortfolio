@@ -49,7 +49,7 @@
 .submain {
   color: #fff;
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: lighter;
   animation: down 2s;
   margin-bottom: 10px;
 }
@@ -57,7 +57,7 @@
 .sub {
   color: #fff;
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: lighter;
   animation: down 2s;
   margin-bottom: 10px;
 }

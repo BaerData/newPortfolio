@@ -75,9 +75,11 @@ body.active {
 
 .submain.active {
     color: black;
+    font-weight: 300;
 }
 .sub.active {
     color: black;
+    font-weight: 300;
 }
 
 .section-home.active {

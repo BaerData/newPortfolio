@@ -28,7 +28,7 @@
   .navbar_menu.active {
     background: var(--primary-background-color);
     top: 1%;
-    opacity: 90%;
+    opacity: 98%;
     transition: ease 3s ;
     z-index: 1;
     height: 80vh;
@@ -151,18 +151,19 @@
   /* formulario de contato */
 
   .main3 {
-    padding: 5vh 0;
-    margin-top: 250px;
+    padding: 5px 0;
+    margin-top: 200px;
     background-size: cover 50%;
     background-repeat: no-repeat;
+    
   }
 
   .main_img--container3 {
     height: 100px;
   }
 
-  .area-login form {
-    width: 400px;
+  .area-login .form {
+    width: 300px;
   }
 
   textarea {
