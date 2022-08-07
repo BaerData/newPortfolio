@@ -28,7 +28,7 @@
   .navbar_menu.active {
     background: var(--primary-background-color);
     top: 1%;
-    opacity: 1;
+    opacity: 90%;
     transition: ease 3s ;
     z-index: 1;
     height: 80vh;
@@ -125,7 +125,7 @@
   /* cartoes dos projetos */
 
   .section--3 {
-    height: 150vh;
+    height: 130vh;
   }
   .section-cards {
     display: grid;

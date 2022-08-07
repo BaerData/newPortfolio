@@ -76,6 +76,9 @@ body.active {
 .submain.active {
     color: black;
 }
+.sub.active {
+    color: black;
+}
 
 .section-home.active {
 background: rgb(241, 239, 229);

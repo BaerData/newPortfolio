@@ -7,7 +7,7 @@
 }
 
 .main {
-  height: 110vh;
+  height: 100vh;
   transition: ease 0.8s;
   
 }
@@ -27,9 +27,9 @@
 }
 
 .main_content h1 {
-  font-weight: lighter;
-  font-size: 5rem;
-  
+  font-weight: 300;
+  font-size: 4rem;
+
   background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
@@ -41,7 +41,7 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   animation: down 1s;
   animation: borderColor 6s infinite linear;
 }
@@ -49,7 +49,15 @@
 .submain {
   color: #fff;
   font-size: 1.5rem;
-  font-weight: lighter;
+  font-weight: 300;
+  animation: down 2s;
+  margin-bottom: 10px;
+}
+
+.sub {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
   animation: down 2s;
   margin-bottom: 10px;
 }
