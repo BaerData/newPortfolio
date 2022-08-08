@@ -15,7 +15,7 @@
 }
 
 body.active {
-    background-color: rgb(241, 239, 229);
+    background: rgb(252, 252, 252);
 }
 
 /* NAVBAR DARK MODE */
@@ -83,14 +83,14 @@ body.active {
 }
 
 .section-home.active {
-background: rgb(241, 239, 229);
+background: rgb(252, 252, 252);
     transition: ease 0.8s;
     
 }
 
 /* TELA SOBRE */
 .section--2.active {
-    background: rgb(241, 239, 229);
+    background: rgb(223, 222, 222);
     transition: ease 0.8s;
 }
 
@@ -102,17 +102,17 @@ background: rgb(241, 239, 229);
 /* TELA CONTATO */
 
 .section--contato.active {
-    background: rgb(241, 239, 229);
+    background: rgb(252, 252, 252);
 }
 
 /* TELA PROJETOS */
 
 .section--3.active {
-    background: rgb(241, 239, 229);
+    background: rgb(252, 252, 252);
     transition: ease 0.8s;
 }
 
 .services.active {
-    background: rgb(241, 239, 229);
+    background: rgb(252, 252, 252);
     transition: ease 0.8s;
 }
