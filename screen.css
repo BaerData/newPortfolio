@@ -33,7 +33,7 @@
     z-index: 1;
     height: 80vh;
     font-size: 1.3rem;
-    width: 70%;
+    width: 60%;
     list-style: none;
     padding: 22px;
 
@@ -179,7 +179,7 @@
     height: 60px;
     z-index: 1;
     width: 100%;
-    max-width: 960px;
+    max-width: 1160px;
 
     padding: 0 50px;
 
@@ -227,6 +227,7 @@
 }
 
 @media screen and (min-width: 1440px) {
+
 
 
 
