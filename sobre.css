@@ -63,7 +63,8 @@
 .main_content2 .sobre-paragraph {
   color: #ffffff;
   font-size: 1.3rem;
-  font-weight: lighter;
+  font-weight: 200;
+  text-transform: initial;
 }
 
 
