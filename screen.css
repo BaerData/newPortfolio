@@ -171,67 +171,15 @@
   }
 }
 
-/* @media screen and (max-width: 1057px) {
-  .navbar_container {
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
-    z-index: 1;
-    width: 100%;
-    max-width: 550px;
 
-    padding: 0 50px;
-
-  }
-
-  .section-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-
-  .cards {
-    width: 190px;
-    height: 250px;
-  }
-
-  .cards:hover {
-    width: 190px;
-    height: 200px;
-  }
-
-  .button-card {
-    margin-top: 50px;
-    padding: 10px;
-  }
-
-  .main3 {
-    padding: 30vh 0;
-    margin-top: 10px;
-    background-size: cover 50%;
-    background-repeat: no-repeat;
-  }
-
-  .main_img--container3 {
-    height: 100px;
-  }
-
-  .area-login form {
-    width: 400px;
-  }
-
-  textarea {
-    padding-left: 1px;
-  }
-} */
 @media screen and (min-width: 1057px) {
   .navbar_container {
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 60px;
     z-index: 1;
     width: 100%;
-    max-width: 1400px;
+    max-width: 960px;
 
     padding: 0 50px;
 
@@ -244,17 +192,17 @@
   }
 
   .cards {
-    width: 200px;
+    width: 300px;
     height: 250px;
   }
 
   .cards:hover {
-    width: 200px;
+    width: 300px;
     height: 200px;
   }
 
   .button-card {
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 10px;
   }
 
