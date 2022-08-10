@@ -28,6 +28,7 @@
 
 .main_content h1 {
   font-weight: 300;
+  font-family: 'Poppins', sans-serif;
   font-size: 4rem;
 
   background: linear-gradient(
@@ -47,6 +48,7 @@
 }
 
 .submain {
+  
   color: #fff;
   font-size: 1.5rem;
   font-weight: lighter;
@@ -67,5 +69,6 @@
   color: #fff;
   font-weight: lighter;
   animation: down 3s;
+  
 }
 

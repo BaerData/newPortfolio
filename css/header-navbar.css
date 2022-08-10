@@ -48,7 +48,8 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     animation: borderColor 7s infinite linear;
-    font-weight: 400;
+    font-weight: 200;
+  font-family: 'Poppins', sans-serif;
   }
 
   .navbar_logo {
