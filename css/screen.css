@@ -340,62 +340,12 @@
     width: 280px;
   }
 }
-@media screen and (min-width: 969px) {
+@media screen and (min-width: 960px) {
   /* NAVBAR */
-  .navbar_container {
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    z-index: 1;
-    width: 100%;
-    padding: 10px;
-  }
 
-  .navbar_menu {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 0;
-    position: absolute;
-    top: -900px;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: -1;
-    width: 100%;
-    gap: 10px;
-  }
 
-  .navbar_menu.active {
-    background: var(--primary-background-color);
-    top: 1%;
-    opacity: 98%;
-    transition: ease 3s;
-    z-index: 1;
-    height: 80vh;
-    font-size: 1.3rem;
-    width: 60%;
-    list-style: none;
-    padding: 22px;
-  }
 
-  #navbar_logo {
-    padding-left: 25px;
-  }
-
-  .navbar_toggle .bar {
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: all 0.3s ease-in-out;
-    background: #7a2ff5;
-  }
-
-  .navbar_links {
-    text-align: center;
-    padding: 12px;
-    width: 100%;
-    display: table;
-    color: white;
-  }
+ 
 
   .main_container {
     margin-top: 100px;
@@ -430,39 +380,19 @@
   .main_content2 {
     text-align: left;
   }
+  .main_content2 .sobre-paragraph {
+  text-align: initial;
+}
 
   .sobre-color {
     font-size: 2rem;
   }
 
-  /* TELA CONTATO */
-
-  #mobile-menu {
-    position: absolute;
-    top: 20%;
-    right: 5%;
-    transform: translate(5%, 20%);
-  }
-
-  .navbar_toggle .bar {
-    display: block;
-    cursor: pointer;
-  }
-
-  #mobile-menu.is-active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  #mobile-menu.is-active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  #mobile-menu.is-active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
 
   /* cartoes dos projetos */
 
   .section--3 {
-    height: 180vh;
+    height: 100vh;
   }
   .section-cards {
     display: grid;
@@ -499,7 +429,7 @@
   }
 
   .area-login .form {
-    width: 300px;
+    width: 500px;
   }
 
   textarea {
@@ -589,6 +519,9 @@
     /* background: var(--primary-background-color); */
     height: 120vh;
     background: var(--primary-background-color);
+  }
+  .area-login .form {
+    width: 500px;
   }
 }
 

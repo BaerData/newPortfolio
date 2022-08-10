@@ -13,9 +13,11 @@
 
 @keyframes btnGo {
   from {
+    
     padding: 10px;
   }
   to {
+  
     padding: 40px;
     
   }
