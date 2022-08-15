@@ -11,23 +11,13 @@
   }
 }
 
-@keyframes btnGo {
-  from {
-    
-    padding: 10px;
-  }
-  to {
-  
-    padding: 40px;
-    
-  }
-}
+
 
 /* default button */
 .button {
   text-decoration: none;
   padding: 10px 20px;
-  height: 100%;
+  height: 1%;
   border: none;
   outline: none;
   border-radius: 4px;
@@ -38,10 +28,14 @@
   font-weight: 100;
   font-family: 'Poppins', sans-serif;
   transition: 1s ease;
+  /* box-shadow: 7px 7px 0px 0 rgb(255, 255, 255); */
+  
+  
 }
 
 .button:hover {
-  transition: all 1s ease;
+  transform: translate(20px);
+  transition: transform 1s ease;
   background: linear-gradient(
     96.71deg,
     #6c60f56f 2.53%,
@@ -49,28 +43,23 @@
     #f0355473 90.5%
   );
   animation: borderColor 5s infinite linear;
+  
 }
 
 /* Home button ´Explore´ */
 .button.btnInicio {
-  font-size: 1rem;
+  font-size: 14px;
   padding: 10px 100px;
   margin-top: 10px;
-  animation: borderColor 10s infinite linear;
+  box-shadow: 0 3px 22px 0 rgba(20, 20, 20, 0.358);
   cursor: pointer;
-  background: linear-gradient(
-    96.71deg,
-    #6c60f5 2.53%,
-    rgba(173, 0, 255, 0.35) 60.79%,
-    #f03554 90.5%
-  );
+
   font-weight: 100;
   font-family: 'Poppins', sans-serif;
 }
 
 .button.btnInicio:hover {
-  transform: scale(1.003);
-  transition: ease-out 1s;
+ 
   background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
@@ -78,7 +67,29 @@
     #f03554fe 90.5%
   );
   animation: borderColor 3s infinite linear;
-  animation: btnGo 1s both;
+  /* animation: btnGo 1s both; */
+}
+
+.button.btnBI {
+  font-size: 14px;
+  padding: 10px 100px;
+  margin-top: 10px;
+ 
+  cursor: pointer;
+
+  font-weight: 100;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button.btnBI:hover {
+  transition: ease-out 1s;
+  background: linear-gradient(
+    96.71deg,
+    #ffae00 2.53%,
+    #f03554 90.5%
+  );
+  animation: borderColor 3s infinite linear;
+ 
 }
 
 /* dark and light mode button */
@@ -175,6 +186,7 @@
   font-family: 'Poppins', sans-serif;
   transition: 500ms ease;
   margin-top: 300px;
+  box-shadow: 0 3px 22px 0 rgba(20, 20, 20, 0.358);
 }
 
 .button-card:hover {
