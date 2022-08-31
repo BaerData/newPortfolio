@@ -130,10 +130,13 @@
 }
 
 .card-name {
-  background: #fff;
+  
+  background: rgb(54, 54, 54);
   margin-top: 3px;
   border-radius: 3px;
   font-weight: 400;
   box-shadow: 0 3px 22px 0 rgba(20, 20, 20, 0.358);
+  color: white;
+  font-weight: lighter;
   
 }
