@@ -124,6 +124,12 @@
   background-size: cover;
   background-position-x: center;
 }
+.cards:nth-child(9) {
+  background-image: url(Img/checklist.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
 
 .img-card {
   width: 100px;
