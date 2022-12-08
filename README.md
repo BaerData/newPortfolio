@@ -30,6 +30,5 @@ Ja refiz o portfolio diversas vezes e esta semana finalmente o concluí, refiz c
 
 ![image](https://user-images.githubusercontent.com/84423047/183347730-95e1fac6-80cb-48cf-974a-904e30506e08.png)
 
-Esse é meu ReadMe, não sei muito bem o que colocar aqui... mas irei atualizar 
 
-Obrigado , Baer.
+
