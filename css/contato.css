@@ -28,7 +28,7 @@
 
 }
 
-.title--contato{
+/* .title--contato{
   font-weight: lighter;
   font-size: 3rem;
   background: linear-gradient(
@@ -47,7 +47,7 @@
 
   
 
-}
+} */
 
 .area-login {
   display: flex;
@@ -96,7 +96,7 @@ form [type="submit"] {
   background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
-    rgba(64, 2, 103, 0.352) 60.79%,
+    rgb(151, 2, 243) 60.79%,
     #f03554 90.5%
   );
   font-size: 20px;
@@ -106,7 +106,7 @@ form [type="submit"] {
   margin-top: 70px;
   margin-bottom: 5px;
   font-weight: lighter;
-
+  border: none;
   animation: borderColor 4s infinite;
 }
 
@@ -115,7 +115,7 @@ form [type="submit"]:hover {
   background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
-    rgba(173, 0, 255, 0.35) 60.79%,
+    rgb(174, 0, 255),
     #f03554 90.5%
   );
   color: #ffffff;

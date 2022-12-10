@@ -26,6 +26,7 @@ const sectionHome = document.querySelector(".section-home");
 const section2 = document.querySelector(".section--2");
 const section3 = document.querySelector(".section--3");
 const sectionContato = document.querySelector(".section--contato");
+const titleAbout = document.querySelector(".sobre-color");
 const sobreParagraph = document.querySelector(".sobre-paragraph");
 const submain = document.querySelector(".submain");
 const sub = document.querySelector(".sub");
@@ -33,6 +34,8 @@ const sub = document.querySelector(".sub");
 const navbar = document.querySelector(".navbar");
 const navbar_logo = document.querySelector(".navbar_logo");
 const navbar_links = document.querySelector(".navbar_links");
+const titleProject = document.querySelector(".project-color");
+const titleContact = document.querySelector(".title-contato");
 // const services = document.querySelector(".services");
 // const menulinksdark = document.querySelector(".navbar_menu");
 
@@ -44,6 +47,7 @@ btnmode.onclick = function () {
   section2.classList.toggle("active");
   section3.classList.toggle("active");
   sectionContato.classList.toggle("active");
+  titleAbout.classList.toggle("active");
   sobreParagraph.classList.toggle("active");
   submain.classList.toggle("active");
   sub.classList.toggle("active");
@@ -51,6 +55,8 @@ btnmode.onclick = function () {
   navbar.classList.toggle("active");
   navbar_logo.classList.toggle("active");
   navbar_links.classList.toggle("active");
+  titleProject.classList.toggle("active");
+  titleContact.classList.toggle("active");
   // services.classList.toggle("active");
   
 };

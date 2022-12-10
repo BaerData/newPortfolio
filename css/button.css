@@ -16,8 +16,8 @@
   color: white;
   transition: all 0.3s ease;
   text-decoration: none;
-  font-weight: 100;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
   transition: 1s ease;
   /* box-shadow: 7px 7px 0px 0 rgb(255, 255, 255); */
   
@@ -45,8 +45,8 @@
   box-shadow: 0 3px 22px 0 rgba(20, 20, 20, 0.358);
   cursor: pointer;
 
-  font-weight: 100;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
 }
 
 .button.btnInicio:hover {
@@ -68,8 +68,8 @@
  
   cursor: pointer;
 
-  font-weight: 100;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
 }
 
 .button.btnBI:hover {
@@ -126,8 +126,8 @@
   color: white;
   transition: all 0.3s ease;
   text-decoration: none;
-  font-weight: 100;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
   transition: 1s ease;
 }
 
@@ -144,7 +144,7 @@
   transition: all 0.3s ease;
   text-decoration: none;
   font-weight: 100;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   transition: 1s ease;
   font-size: 1.2rem;
 
@@ -154,9 +154,9 @@
 .btn-redes:hover {
   background: linear-gradient(
     96.71deg,
-    #6c60f56f 2.53%,
-    rgba(151, 2, 243, 0.461) 60.79%,
-    #f0355473 90.5%
+    #6c60f5 2.53%,
+    rgb(151, 2, 243) 60.79%,
+    #f03554 90.5%
   );
   animation: borderColor 3s infinite linear;
 }
@@ -183,9 +183,9 @@
 .button-card:hover {
   background: linear-gradient(
     96.71deg,
-    #6c60f56f 2.53%,
-    rgba(151, 2, 243, 0.461) 60.79%,
-    #f0355473 90.5%
+    #6c60f5 2.53%,
+    rgb(151, 2, 243) 60.79%,
+    #f03554 90.5%
   );
   animation: borderColor 4s infinite;
   transform: scale(1.031);

@@ -71,11 +71,13 @@ body.active {
 .baer.active {
     color: black;
     transition: ease 0.8s;
+    
 }
 
 .submain.active {
-    color: black;
-    font-weight: 300;
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+    
 }
 .sub.active {
     color: black;
@@ -94,16 +96,16 @@ background: rgb(252, 252, 252);
     transition: ease 0.8s;
 }
 
+    .sobre-color.active {
+        color: rgb(20, 20, 20);
+    }
+
  .sobre-paragraph.active {
-    color: #000;
+    color: rgb(58, 58, 58);
     transition: ease 0.8s;
 }
 
-/* TELA CONTATO */
 
-.section--contato.active {
-    background: rgb(252, 252, 252);
-}
 
 /* TELA PROJETOS */
 
@@ -116,3 +118,21 @@ background: rgb(252, 252, 252);
     background: rgb(252, 252, 252);
     transition: ease 0.8s;
 }
+
+.project-color.active {
+    color: rgb(20, 20, 20);
+}
+
+/* TELA CONTATO */
+
+.section--contato.active {
+    background: rgb(252, 252, 252);
+}
+
+.title-contato.active {
+    color: rgb(20, 20, 20);
+}
+
+
+
+

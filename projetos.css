@@ -25,20 +25,21 @@
 }
 
 .project-color {
-  font-weight: 400;
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 2rem;
-  background: linear-gradient(
+  color: white;
+  /* background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
     rgba(64, 2, 103, 0.352) 60.79%,
     #f03554 90.5%
-  );
-  -webkit-background-clip: text;
+  ); */
+  /* -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-
+  -moz-text-fill-color: transparent; */
+  font-family: 'Raleway', sans-serif;
   animation: down 1s;
   animation: borderColor 6s infinite linear;
 }

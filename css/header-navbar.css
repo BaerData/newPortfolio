@@ -48,9 +48,11 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     animation: borderColor 7s infinite linear;
-    font-weight: 200;
-  font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
   }
+
+
 
   .navbar_logo {
     color: rgb(255, 255, 255);
@@ -59,7 +61,8 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 1.6rem;
-    
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
   }
 
  

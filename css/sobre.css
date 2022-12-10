@@ -6,7 +6,7 @@
 
 /* Div Base */
 .main2 {
-  text-transform: uppercase;
+  
   padding: 30vh 0vh;
   height: 100%;
   width: 100%;
@@ -15,7 +15,7 @@
 .main_container2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: start;
+  align-items: end;
   justify-content: center;
   margin: 0 auto;
   height: 90%;
@@ -40,10 +40,10 @@
 
 /* Titulo da pagina */
 .sobre-color {
-  
-  font-weight: 400;
+  color: white;
+  font-weight: bold;
   font-size: 3rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     96.71deg,
     #6c60f5 2.53%,
     rgba(64, 2, 103, 0.352) 60.79%,
@@ -52,8 +52,8 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-
+  -moz-text-fill-color: transparent; */
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 10px;
   animation: down 1s;
   animation: borderColor 3s infinite linear;
@@ -61,11 +61,11 @@
 }
 /* paragrafo da pagina sobre */
 .main_content2 .sobre-paragraph {
-  color: #ffffff;
+  color: #cccaca;
   font-size: 1.1rem;
-  font-weight: 200;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
   
-  font-weight: 200;
 }
 
 
