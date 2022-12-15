@@ -72,8 +72,9 @@
 
 .cards:hover {
   transition: 0.7s ease;
-  height: 320px;
+  
   opacity: 100%;
+  
 }
 
 .cards:nth-child(1) {
@@ -81,6 +82,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
+  
 }
 .cards:nth-child(2) {
   background-image: url(Img/confeitaria.jpg);
