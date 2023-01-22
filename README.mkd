@@ -1,0 +1,9 @@
+# Linktree 
+## Objetivo: Direcionar os visitantes para os seguintes links
+
+![image](https://user-images.githubusercontent.com/84423047/213940669-f1376422-8673-4a25-b1fc-2d69acd4c0b9.png)
+
+[1] - <a href="https://www.linkedin.com/in/jonathanbaer/">Linkedin</a>
+[2] - <a href="https://github.com/BaerSenac">Github</a>
+[3] - <a href="https://baersenac.github.io/Portfolio/">Cyberportfolio</a>
+[4] - <a href="https://beryl-metatarsal-cd4.notion.site/Jonathan-Baer-Business-Intelligence-d6550fdd32334e31850d7702f005c3c0">Portfolio Power BI</a>
