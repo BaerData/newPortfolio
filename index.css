@@ -12,11 +12,13 @@ body {
   padding: 0;
   margin: 0;
   background: black;
-  font-family: 'Kanit', sans-serif
+  font-family: 'Kanit', sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 .container {
-  background: #ffffff;
+  background: #eeeeee;
   text-align: center;
   display: flex;
   align-items: center;
