@@ -1,7 +1,8 @@
 # Linktree 
 ## Objetivo: Direcionar os visitantes para os seguintes links
 
-![image](https://user-images.githubusercontent.com/84423047/213940669-f1376422-8673-4a25-b1fc-2d69acd4c0b9.png)
+![image](https://user-images.githubusercontent.com/84423047/215656177-12755b70-07c9-4abf-b6dd-7a3d1f3f1527.png)
+
 
 - [1] - <a href="https://www.linkedin.com/in/jonathanbaer/">Linkedin</a>
 - [2] - <a href="https://github.com/BaerSenac">Github</a>
