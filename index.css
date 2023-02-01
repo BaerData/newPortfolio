@@ -17,16 +17,33 @@ body {
   width: 100vw;
 }
 
+header {
+  
+  background: #eeeeee;
+}
+nav {
+  height: 10vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 110px;
+  background: none;
+}
+
 .container {
   background: #eeeeee;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
+  
 }
 
 .content {
@@ -36,8 +53,8 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 8vh;
 }
-
 
  .links {
   text-align: center;
@@ -55,7 +72,7 @@ img {
   width: 200px;
   border-radius: 10px;
 }
- .text {
+.text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -80,8 +97,6 @@ p {
   flex-wrap: wrap;
   align-items: center;
 }
-
-
 
 a {
   text-decoration: none;
@@ -116,13 +131,42 @@ a {
 }
 
 
-@media (min-width:350px) and (max-width:600px) {
+@media (min-width:350px) and (max-width:400px) {
+  
+  .logo {
+    width: 80px;
+  }
   
   .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150vh;
+    height: 140vh;
+   
+  }
+  .links {
+    gap: 10px;
+  }
+  p {
+    width: 80vw;
+  }
+  a {
+    width: 80vw;
+  }
+}
+@media (min-width:401px) and (max-width:500px) {
+  
+  .logo {
+    width: 80px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    
   }
   .links {
     gap: 10px;
@@ -134,7 +178,7 @@ a {
     width: 80vw;
   }
 }
-@media (min-width:601px) and (max-width:1000px) {
+@media (min-width:501px) and (max-width:700px) {
   .container {
     display: flex;
     align-items: center;
@@ -147,7 +191,27 @@ a {
     flex-direction: column;
   }
   p {
+    width: 60vw;
+  }
+  a {
     width: 40vw;
+  }
+}
+@media (min-width:701px) and (max-width:1000px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  .links {
+    gap: 10px;
+    display: flex;
+    
+  }
+  p {
+    width: 60vw;
   }
   a {
     width: 40vw;
