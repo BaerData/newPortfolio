@@ -134,7 +134,7 @@ a {
 }
 
 
-@media (min-width:350px) and (max-width:400px) {
+@media (min-width:350px) and (max-width:400px)   {
   header {
     z-index: 1000;
   }
@@ -152,7 +152,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150vh;
+    height: 170vh;
    
   }
   .links {
