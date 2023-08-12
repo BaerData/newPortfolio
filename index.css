@@ -20,7 +20,7 @@ body {
 
 header {
   position: fixed;
-  background: #eeeeee;
+  
   z-index: 1000;
 }
 nav {
@@ -82,7 +82,7 @@ img {
   
 }
 h1 {
-  color: rgb(255, 255, 255);
+  color: #11FF19;
   margin: 0;
 }
 
@@ -101,9 +101,11 @@ p {
   align-items: center;
 }
 
+
+
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #11FF19;
   font-size: 1.4rem;
   border: 1px solid ;
   width: 14vw;
@@ -112,7 +114,13 @@ a {
   border-radius: 2px;
 }
 
-#linkedin:hover {
+a:hover {
+  background: rgba(0, 128, 0, 0.377);
+}
+
+
+
+/* #linkedin:hover {
   color: #f7f7f7;
   background: #0961B8;
   border: 1px solid #ffffff;
@@ -131,7 +139,7 @@ a {
   color: #0e0f0f;
   background: #f7b11a;
   border: 1px solid #ffffff;
-}
+} */
 
 
 @media (min-width:350px) and (max-width:400px)   {
@@ -226,7 +234,7 @@ a {
   .links {
     gap: 10px;
     display: flex;
-    
+    flex-direction: column;
   }
   p {
     width: 60vw;
