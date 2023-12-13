@@ -115,7 +115,8 @@ a {
 }
 
 a:hover {
-  background: rgba(0, 128, 0, 0.377);
+  background: #11FF19;
+  color: #000000;
 }
 
 
