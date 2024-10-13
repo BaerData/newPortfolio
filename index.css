@@ -31,13 +31,8 @@ nav {
   align-items: center;
   justify-content: center;
 }
-.logo {
-  width: 100px;
-  
-}
-
 .container {
-  background: #000000;
+  background: #151515;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +68,9 @@ nav {
 }
 img {
   width: 200px;
-  border-radius: 10px;
+  border: 1px solid #3f3f3f;
+  padding: 40px;
+  border-radius: 5px;
 }
 .text {
   display: flex;
@@ -107,11 +104,11 @@ a {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.4rem;
-  border: 1px solid ;
-  width: 14vw;
+  width: 10px;
   padding: 10px;
   margin: 6px;
-  border-radius: 2px;
+  border: 1px solid #3f3f3f;
+  border-radius: 5px;
 }
 
 a:hover {
